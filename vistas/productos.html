@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
@@ -33,6 +35,7 @@
          </ul>
         </nav>
     </header>
+    <div data-aos="fade-up" data-aos-duration="1500">
     <h2 class="clase1">Conocé nuestros productos!</h2>
     <div class="fondoproductos">
         <p class="imagenesproductos"><img src="../img/Remini20220108132801390.jpg" alt="" width="680" height="600"></p>
@@ -42,6 +45,7 @@
         <p class="imagenesproductos"><img src="../img/Remini20220108133550535.jpg" alt="" width="680" height="600"></p>
         <p class="imagenesproductos"><img src="../img/foto1.jpg" alt="" width="680" height="600"></p>
     </div>
+    </div>
     <footer class="infoContacto">
             <i class="fab fa-instagram">   <b>terucakes</b></i>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -49,5 +53,8 @@
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
             <i class="fab fa-whatsapp">   <b>11-6164-2063</b></i>
     </footer>
+    <script>
+            AOS.init();
+        </script>      
 </body>
 </html>
